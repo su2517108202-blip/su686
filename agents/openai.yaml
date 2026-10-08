@@ -1,0 +1,6 @@
+interface:
+  display_name: "su686 · 短剧工作流"
+  short_description: "按本集补缺资产与服装版本，从定稿分镜派生剧情九格并引用准备视频"
+  default_prompt: "使用 $su686，复用本剧资产补本集缺项，从定稿分镜派生九格并准备引用九格的视频提示词。"
+policy:
+  allow_implicit_invocation: true
