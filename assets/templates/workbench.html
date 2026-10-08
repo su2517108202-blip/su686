@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>主动交接 · 模板示例 — 制作工作台</title>
+  <link rel="stylesheet" href="ui.css">
+  <script src="ui.js" defer></script>
+</head>
+<body data-page="workbench">
+  <header class="workbench-header">
+    <a class="brand" href="workbench.html">su686 <span data-project-title>主动交接 · 模板示例</span></a>
+    <span class="template-label">可复用模板</span>
+  </header>
+  <div class="workbench-layout">
+    <aside class="workbench-sidebar">
+      <p class="sidebar-caption">本集材料</p>
+      <nav class="workbench-nav" aria-label="制作模块">
+        <a href="A.html" target="production-workspace" data-module="A"><b>A</b><span>大纲与关系树<small>主题、冲突与选择</small></span></a>
+        <a href="B.html" target="production-workspace" data-module="B"><b>B</b><span>角色场景物品<small>版本与完整生图提示词</small></span></a>
+        <a href="D.html" target="production-workspace" data-module="D" aria-current="page"><b>D</b><span>分镜与视频提示词<small>同一份分镜，直接复制</small></span></a>
+      </nav>
+    </aside>
+    <iframe id="production-workspace" name="production-workspace" src="D.html" title="A/B/D 制作工作区"></iframe>
+  </div>
+  <script id="su686-data" type="application/json">{"title":"主动交接 · 模板示例"}</script>
+</body>
+</html>

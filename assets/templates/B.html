@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>主动交接 · 模板示例 — 统一资产</title>
+  <link rel="stylesheet" href="ui.css">
+  <script src="ui.js" defer></script>
+</head>
+<body data-page="B">
+  <header class="standalone-header">
+    <a class="brand" href="workbench.html">su686 <span data-project-title>主动交接 · 模板示例</span></a>
+    <nav class="module-nav" aria-label="三模块导航">
+      <a href="A.html" data-module="A">A · 大纲与关系</a>
+      <a href="B.html" data-module="B" aria-current="page">B · 统一资产</a>
+      <a href="D.html" data-module="D">D · 分镜提示词</a>
+      <a href="workbench.html" class="workbench-link">打开工作台</a>
+    </nav>
+  </header>
+  <main class="module-main">
+    <p class="template-note">模板示例 · 复制这套页面后填入本轮定稿材料。示例素材名称用于说明结构；没有生成媒体或真实绑定。</p>
+    <section class="page-intro">
+      <p class="eyebrow">B · 角色场景物品生成</p>
+      <h1>本集统一资产</h1>
+      <p>先定稿相关设定与完整生图提示词，图片可以后补。角色服装、空间和关键物品供D读取。</p>
+    </section>
+    <section class="paper-card common-art"><h2>共同美术</h2><p id="common-art"></p></section>
+    <div id="asset-list" class="asset-list"></div>
+  </main>
+  <script id="su686-data" type="application/json">{
+  "title": "主动交接 · 模板示例",
+  "commonArt": "克制的现代生活电影感，真实成人比例，柔和自然光，灰绿与暖木色，细腻材质。",
+  "assets": [
+    {
+      "id": "character-a",
+      "type": "角色与服装",
+      "name": "角色甲 · 日常装",
+      "materialName": "模板角色甲日常装.png",
+      "summary": "28岁，短黑发；谨慎，最终主动完成交接。",
+      "identity": "灰绿衬衫、深灰长裤、黑色平底鞋。版本：日常装。",
+      "readiness": "模板文字示例；图片未生成、未认可、未绑定。",
+      "prompt": "克制的现代生活电影感，真实成人比例，柔和自然光，灰绿与暖木色，细腻材质。角色甲，28岁成年人，短黑发，椭圆脸，平直眉，深棕眼睛，鼻梁挺直，体态匀称，神情谨慎而克制。灰绿衬衫、深灰长裤、黑色平底鞋，衣服干净完整，无额外饰品。清楚呈现脸部、发型、身体比例及当前服装和鞋，保持同一身份；简单背景，清晰柔光。构图与画幅按本轮已确认选择。"
+    },
+    {
+      "id": "character-b",
+      "type": "角色与服装",
+      "name": "角色乙 · 日常装",
+      "materialName": "模板角色乙日常装.png",
+      "summary": "30岁，短棕发；安静等待，接收后保持原站位。",
+      "identity": "米白针织衫、深蓝长裤、棕色平底鞋。版本：日常装。",
+      "readiness": "模板文字示例；图片未生成、未认可、未绑定。",
+      "prompt": "克制的现代生活电影感，真实成人比例，柔和自然光，灰绿与暖木色，细腻材质。角色乙，30岁成年人，短棕发，略长方脸，柔和眉形，深棕眼睛，嘴唇自然，体态匀称，神情耐心平和。米白针织衫、深蓝长裤、棕色平底鞋，衣服干净完整，无额外饰品。清楚呈现脸部、发型、身体比例及当前服装和鞋，保持同一身份；简单背景，清晰柔光。构图与画幅按本轮已确认选择。"
+    },
+    {
+      "id": "room",
+      "type": "场景空间",
+      "name": "窗边房间",
+      "materialName": "模板窗边房间.png",
+      "summary": "东墙窗下木桌，西墙门，桌南北两侧可通行。",
+      "identity": "空房间参考；门、窗、桌的物理关系固定。",
+      "readiness": "模板文字示例；图片未生成、未认可、未绑定。",
+      "prompt": "克制的现代生活电影感，真实成人比例，柔和自然光，灰绿与暖木色，细腻材质。一间安静的现代房间，东墙是一扇窗，窗下靠东墙放一张长方形暖木色桌，西墙是一扇门。桌南北两侧均留可站立和通行空间，地面平整，无杂物阻挡。摄影从房间西北内侧朝东南看，画面清楚呈现东墙窗、窗下木桌、桌面与南北两侧通道。西墙门保持原物理位置，在此视角背后不入画，不为显示门而换墙。空场景，不放人物或钥匙；后续换机位仍沿用相同物理布局。构图与画幅按本轮已确认选择。"
+    },
+    {
+      "id": "key",
+      "type": "关键物品",
+      "name": "银色钥匙",
+      "materialName": "模板钥匙.png",
+      "summary": "单把银色钥匙与圆形金属钥匙环，交接控制权清楚。",
+      "identity": "无可读文字；形制跨镜头一致。",
+      "readiness": "模板文字示例；图片未生成、未认可、未绑定。",
+      "prompt": "克制的现代生活电影感，真实成人比例，柔和自然光，灰绿与暖木色，细腻材质。一把银色金属钥匙，连接一个圆形金属钥匙环，真实可手持的尺寸，轮廓清楚，齿形固定，表面轻微使用痕迹但无破损，无商标和可读文字。以简单中性背景清楚呈现完整形制、环与钥匙连接关系及金属材质。构图与画幅按本轮已确认选择。"
+    }
+  ]
+}</script>
+</body>
+</html>

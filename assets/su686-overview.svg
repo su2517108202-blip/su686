@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="550" viewBox="0 0 1200 550" role="img" aria-labelledby="title desc">
   <title id="title">su686 短剧导演与提示词工作流</title>
-  <desc id="desc">大纲与关系树连接统一资产和定稿分镜；同版分镜派生剧情九宫格与视频提示词，核对后的剧情板用于视频参考。执行窗口制作，监工窗口统一质量审核。</desc>
+  <desc id="desc">大纲与关系树连接统一资产和唯一分镜提示词；同一正文含极短静态图片与视频条件用途，直接生九格，实际挂载后用同一稿生视频，无回填。子/执行窗口制作，主监工窗口只读审核。</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
       <path d="M 0 0 L 10 5 L 0 10 Z" fill="#64748b"/>
@@ -33,7 +33,7 @@
     <g fill="#172554" font-size="25" font-weight="700">
       <text x="62" y="188">A  大纲与关系树</text>
       <text x="447" y="188">B  统一资产</text>
-      <text x="832" y="188">D  定稿分镜</text>
+      <text x="832" y="188">D  定稿分镜提示词</text>
     </g>
     <g fill="#475569" font-size="20">
       <text x="62" y="225">主线、冲突、关键选择</text>
@@ -51,18 +51,18 @@
       <path d="M 985 290 V 366"/>
       <path d="M 775 440 H 806"/>
     </g>
-    <text x="666" y="325" fill="#64748b" font-size="19">由同一版 D 派生</text>
+    <text x="666" y="325" fill="#64748b" font-size="19">一份分镜，两种任务</text>
 
     <g fill="#172554" font-size="23" font-weight="700">
       <text x="62" y="412">制作与审核分工</text>
       <text x="447" y="412">3×3 剧情九宫格</text>
-      <text x="832" y="412">视频提示词与配音</text>
+      <text x="832" y="412">同稿视频与配音</text>
     </g>
     <g fill="#475569" font-size="20">
       <text x="62" y="449">执行窗口直接制作</text>
       <text x="62" y="482">监工窗口统一质量审核</text>
       <text x="447" y="449">镜头内关键阶段，沿用原镜头</text>
-      <text x="447" y="482">生成核对后作为参考</text>
+      <text x="447" y="482">挂载后同一稿生成视频</text>
       <text x="832" y="449">真实引用 · 开口与闭口时窗</text>
       <text x="832" y="482">固定 TTS 与环境声另配</text>
     </g>

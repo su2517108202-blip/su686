@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>主动交接 · 模板示例 — 分镜与视频提示词</title>
+  <link rel="stylesheet" href="ui.css">
+  <script src="ui.js" defer></script>
+</head>
+<body data-page="D">
+  <header class="standalone-header">
+    <a class="brand" href="workbench.html">su686 <span data-project-title>主动交接 · 模板示例</span></a>
+    <nav class="module-nav" aria-label="三模块导航">
+      <a href="A.html" data-module="A">A · 大纲与关系</a>
+      <a href="B.html" data-module="B">B · 统一资产</a>
+      <a href="D.html" data-module="D" aria-current="page">D · 分镜提示词</a>
+      <a href="workbench.html" class="workbench-link">打开工作台</a>
+    </nav>
+  </header>
+  <main class="module-main">
+    <p class="template-note">模板示例 · 复制这套页面后填入本轮定稿材料。示例素材名称用于说明结构；没有生成媒体或真实绑定。</p>
+    <section class="page-intro">
+      <p class="eyebrow">D · 分镜与视频提示词</p>
+      <h1 id="episode-title">本集分镜</h1>
+      <p id="episode-overview"></p>
+    </section>
+    <section class="paper-card model-choice">
+      <h2>本轮唯一模型与模式</h2>
+      <p><strong id="video-model"></strong><span class="mode-divider"> / </span><span id="generation-mode"></span></p>
+      <p id="mode-notice" class="muted"></p>
+    </section>
+    <p class="workflow-line">同一份分镜提示词：直接生成3×3九格 → 实际挂载九格 → 用同一稿生成视频，无需回填。</p>
+    <div id="segment-list" class="segment-list"></div>
+  </main>
+  <script id="su686-data" type="application/json">{
+  "title": "主动交接 · 模板示例",
+  "episode": "本集 · 钥匙交接",
+  "overview": "甲迟疑地将钥匙推出，观察乙的等待后主动松手，乙接收完成。一个事件，三镜，12秒。",
+  "videoModel": "【本轮唯一已选视频模型】",
+  "generationMode": "【该模型实际生成模式】",
+  "modeNotice": "通用自然语言模板示例。真实项目按唯一已选模型与模式的实际语言/引用规则定稿同一正文；不是H3合法提交或素材已绑定。",
+  "segments": [
+    {
+      "id": "SEG01",
+      "seconds": 12,
+      "actionSummary": "推出钥匙 → 按住停顿 → 主动松开 → 乙接收",
+      "shots": [
+        {
+          "label": "Shot 1",
+          "range": "0–3秒",
+          "summary": "侧面中景：放下并推向桌中央，甲仍按住钥匙环。"
+        },
+        {
+          "label": "Shot 2",
+          "range": "3–8秒",
+          "summary": "双人近景：甲观察乙，乙张手等待，控制权不变。"
+        },
+        {
+          "label": "Shot 3",
+          "range": "8–12秒",
+          "summary": "手部近景：甲先松开退手，乙随后取走。"
+        }
+      ],
+      "assetReadiness": "文字设定已填入；角色、场景与物品图未生成或绑定，九格稳定名称已预定。",
+      "modelPrompt": "静态图片任务：按原Shot已有动作阶段生成一张3×3剧情九宫格，仅用已有角色、场景和物品参考，不引用待生成九格自身。\n视频任务：用随后实际上传的本段剧情板作镜头参考，按原Shot时序输出正常连续单画面视频。\n\n【共同美术】\n克制的现代生活电影感，真实成人比例，柔和自然光，灰绿与暖木色，细腻材质，人物身份与服装跨镜头一致。\n\n【图片参考区】\n角色甲日常装：@模板角色甲日常装.png；28岁，短黑发，灰绿衬衫、深灰长裤、黑色平底鞋。\n角色乙日常装：@模板角色乙日常装.png；30岁，短棕发，米白针织衫、深蓝长裤、棕色平底鞋。\n场景：@模板窗边房间.png；东墙窗下是一张木桌，西墙是门，桌南北两侧都有可通行空间。\n关键物品：@模板钥匙.png；一把银色钥匙连着圆形金属钥匙环，无可读文字。\n\n视频参考计划：模板SEG01九宫格.png（普通稳定文件名）；视频时采用随后实际上传的本段剧情板，参考本段构图、站位及原Shot动作阶段；生成本板时不挂载它，九格不增加切镜或时间锚。\n\n【起态】\n总时长12秒。甲站桌南侧、朝北，右手握钥匙；乙站桌北侧、朝南，双手空着。门始终在西墙，窗和桌始终在东侧。摄影变化不改变物理站位；双人对话轴为南北方向，镜头保持在桌的西侧。两人全程站在各自桌侧，不跨桌、不换位。\n\n【Shot 1 · 0–3秒】\n西侧观看的侧面中景，固定机位，甲在画面右侧、乙在画面左侧。甲右手从身前移到南侧桌沿，先放下钥匙，再用右手食指把钥匙沿桌面推向中央，食指持续压住钥匙环；钥匙仍由甲控制。乙目光跟随钥匙，双手不接触它。两人闭口。3秒处在甲停止推动、仍按住钥匙环时切镜。\n\n【Shot 2 · 3–8秒】\n切到桌西侧的双人近景，观看方向与轴线沿用上一镜。甲的食指仍压在桌中央的钥匙环上，视线从钥匙移到乙的脸，停顿一拍；乙张开右手，停在钥匙北侧约一掌处，等待而不抢拿。甲观察乙的反应后肩膀稍松，尚未松手。两人闭口。8秒处在甲决定松手的一刻切到手部。\n\n【Shot 3 · 8–12秒】\n切到桌西侧斜俯看的双手与桌面近景，南北方向与桌面位置不变。甲先主动抬起食指，右手退回南侧桌沿；乙随后从北侧伸右手，握住钥匙环并将钥匙拿离桌面，手停在自己胸前。没有同时争握、瞬移或越过对方的手。镜头不要求全身入画，双方站位仍继承起态。\n\n【对白与嘴窗】\n逐字台词：甲：“你拿着。”\n计划嘴窗为9.0–10.0秒，只甲说这句；乙闭口，甲说完立即闭口。未制作固定TTS音轨，正式时按同版台词与实测配音校准嘴窗，整条剔除模型原音轨，另配固定TTS和环境声。手部近景中可见嘴部若未入画，不用画外声音带动乙嘴部。\n\n【终态与视频输出】\n12秒结束时乙右手持钥匙，甲空手，双方仍在原桌侧。连续单画面视频，按三镜切点输出，画面不保留九宫格、格线或格号。环境声为轻微室内底噪和钥匙接触桌面的轻响，声景与当前动作相属。",
+      "boardReferences": [
+        {
+          "name": "模板SEG01九宫格.png",
+          "generated": false,
+          "bound": false
+        }
+      ]
+    }
+  ]
+}</script>
+</body>
+</html>
