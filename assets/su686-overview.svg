@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="550" viewBox="0 0 1200 550" role="img" aria-labelledby="title desc">
+  <title id="title">su686 短剧导演与提示词工作流</title>
+  <desc id="desc">大纲与关系树连接统一资产和定稿分镜；同版分镜派生剧情九宫格与视频提示词，核对后的剧情板用于视频参考。执行窗口制作，监工窗口统一质量审核。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="550" rx="24" fill="#f4f7fc"/>
+  <g font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif">
+    <text x="40" y="65" fill="#172554" font-size="42" font-weight="700">su686</text>
+    <text x="212" y="63" fill="#334155" font-size="28" font-weight="600">面向短剧的 AI 导演与提示词工作流</text>
+    <text x="40" y="108" fill="#64748b" font-size="21">故事有主线 · 资产可复用 · 行动有起终态 · 正文可直接复制</text>
+
+    <g fill="#ffffff" stroke="#d8e1ef" stroke-width="1.5">
+      <rect x="40" y="145" width="350" height="145" rx="16"/>
+      <rect x="425" y="145" width="350" height="145" rx="16"/>
+      <rect x="810" y="145" width="350" height="145" rx="16"/>
+      <rect x="40" y="370" width="350" height="140" rx="16"/>
+      <rect x="425" y="370" width="350" height="140" rx="16"/>
+      <rect x="810" y="370" width="350" height="140" rx="16"/>
+    </g>
+    <g fill="#2563eb">
+      <rect x="40" y="145" width="350" height="5" rx="2.5"/>
+      <rect x="425" y="145" width="350" height="5" rx="2.5"/>
+      <rect x="810" y="145" width="350" height="5" rx="2.5"/>
+    </g>
+    <g fill="#0f766e">
+      <rect x="425" y="370" width="350" height="5" rx="2.5"/>
+      <rect x="810" y="370" width="350" height="5" rx="2.5"/>
+    </g>
+
+    <g fill="#172554" font-size="25" font-weight="700">
+      <text x="62" y="188">A  大纲与关系树</text>
+      <text x="447" y="188">B  统一资产</text>
+      <text x="832" y="188">D  定稿分镜</text>
+    </g>
+    <g fill="#475569" font-size="20">
+      <text x="62" y="225">主线、冲突、关键选择</text>
+      <text x="62" y="258">关系、走向与结局</text>
+      <text x="447" y="225">详细外貌 · 服装版本</text>
+      <text x="447" y="258">旧资产复用，按集补缺</text>
+      <text x="832" y="225">起态 → 动作变化 → 终态</text>
+      <text x="832" y="258">空间、控制权与摄影连续</text>
+    </g>
+
+    <g fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M 390 218 H 421"/>
+      <path d="M 775 218 H 806"/>
+      <path d="M 985 290 V 335 H 600 V 366"/>
+      <path d="M 985 290 V 366"/>
+      <path d="M 775 440 H 806"/>
+    </g>
+    <text x="666" y="325" fill="#64748b" font-size="19">由同一版 D 派生</text>
+
+    <g fill="#172554" font-size="23" font-weight="700">
+      <text x="62" y="412">制作与审核分工</text>
+      <text x="447" y="412">3×3 剧情九宫格</text>
+      <text x="832" y="412">视频提示词与配音</text>
+    </g>
+    <g fill="#475569" font-size="20">
+      <text x="62" y="449">执行窗口直接制作</text>
+      <text x="62" y="482">监工窗口统一质量审核</text>
+      <text x="447" y="449">镜头内关键阶段，沿用原镜头</text>
+      <text x="447" y="482">生成核对后作为参考</text>
+      <text x="832" y="449">真实引用 · 开口与闭口时窗</text>
+      <text x="832" y="482">固定 TTS 与环境声另配</text>
+    </g>
+    <text x="40" y="537" fill="#64748b" font-size="18">原创工作流示意 · 按本集本场读取 · 一键复制全文 · 真实媒体审核</text>
+  </g>
+</svg>
